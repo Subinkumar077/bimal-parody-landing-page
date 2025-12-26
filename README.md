@@ -1,20 +1,42 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Bimal Parody Landing Page
 
-# Run and deploy your AI Studio app
+A satirical landing page parodying a popular brand, built from a Figma design. This project features a humorous take on product marketing with dark comedy elements.
 
-This contains everything you need to run your app locally.
+## 🎯 Overview
 
-View your app in AI Studio: https://ai.studio/apps/drive/1AEa1nmMW6eDBxiuhyGZdtPxDOXvmcRL8
+This is a React-based single-page application that showcases a parody brand "Bimal" with products humorously labeled as "cancerous." The landing page includes a hero section, product listings, and a disclaimer footer, all styled with a vibrant color scheme.
 
-## Run Locally
+## ✨ Features
 
-**Prerequisites:**  Node.js
+- **Responsive Design**: Mobile-first approach with Tailwind CSS  
+- **Smooth Animations**: Product cards animated with Framer Motion  
+- **Modern UI**: Clean, modern interface with custom brand colors  
+- **TypeScript**: Fully typed for better development experience  
+- **Fast Development**: Powered by Vite for lightning-fast builds  
+
+## 🛠️ Tech Stack
+
+- **React** 19.2.3 – UI library  
+- **TypeScript** 5.8.2 – Type safety  
+- **Vite** 6.2.0 – Build tool and dev server  
+- **Framer Motion** 11.18.2 – Animation library  
+- **Tailwind CSS** – Utility-first CSS framework (via CDN)  
+
+## 📁 Project Structure
+
+```text
+bimal-parody-landing-page/
+├── components/
+│   ├── Header.tsx          # Navigation header
+│   ├── Hero.tsx            # Hero section with title and image
+│   ├── ProductList.tsx     # Product listing container
+│   ├── ProductCard.tsx     # Individual product card component
+│   └── Footer.tsx          # Footer with disclaimer
+├── App.tsx                 # Main application component
+├── constants.ts            # Centralized data and configuration
+├── index.tsx               # Application entry point
+├── index.html              # HTML template
+├── vite.config.ts          # Vite configuration
+└── tsconfig.json           # TypeScript configuration
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
